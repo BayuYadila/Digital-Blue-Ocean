@@ -24,7 +24,6 @@
   </head>
   <body>
 
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-lg-top">
         <div class="container">
@@ -36,22 +35,22 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto justify-content-end">
               <li class="nav-item mx-2">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link active" aria-current="page" href="#">Search Books</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Search Books</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link active" aria-current="page" href="#">Statistics</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Statistics</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link active" aria-current="page" href="#">Related Links</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Related Links</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="#">About</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Contact</a>
               </li>
             </ul>
             <div>
@@ -60,15 +59,16 @@
           </div>
         </div>
       </nav>
+    <!-- Akhir Navbar -->
 
-      <!-- Section Homepage Hero -->
-      <div class="container hero overflow-hidden ">
+    <!-- Section Homepage Hero -->
+      <section class="container hero overflow-hidden">
         <div class="row gx-5">
           <div class="col-md-6">
             <div class="content">
-              <div class="welcome-container my-auto">
-              <h1>Welcome In<br></h1>  
-                  <h1 class="fw-bold">Digital Blue Ocean</h1>
+              <div class="welcome-container my-auto" style="filter: drop-shadow(2px 2px 2px black);">
+                <h1 class="fw-bold">Welcome <span class="regular">In</span></h1>
+                  <h1 class="DBO-content fw-bold">Digital Blue Ocean</h1>
               <div class="row button-container">
                 <div class="col-md-6 mt-3 "> <button class="button left-button">More</button></div>
                 <div class="col-md-6 mt-3"> <button class="button right-button">Sign Up Now</button></div>
@@ -82,121 +82,195 @@
             </div>
           </div>
       </div>
-      </div>
-
+      </section>
     <!-- Akhir Section Homepage Hero -->
 
     <!-- Section Search Bar -->
-    <section class="search">
-      <div class="tittle" style="text-align: center; color: white; font-size: 21px;">
-        <div class="maintext">
-        Search for your favorite digital book now!
+      <section class="search">
+        <div class="tittle" style="text-align: center; color: white; font-size: 21px;">
+          <div class="maintext" style="filter: drop-shadow(2px 2px 2px black);">
+          Search for your favorite digital book now!
+          </div>
+          <div class="container-fluid d-flex justify-content-center">
+            <div class="searchbar input-group input-group-lg">
+              <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Fill in with Book Title, Publisher, Book Category, Book Content" aria-describedby="inputGroup-sizing-lg" style="border-radius: 20px 0 0 20px;">
+              <span class="btnsearch btn input-group-text text-white" style="border-radius: 0 20px 20px 0;" id="inputGroup-sizing-lg">Search</span>
+            </div> 
+          </div>     
         </div>
-        <div class="container-fluid d-flex justify-content-center">
-          <div class="searchbar input-group input-group-lg">
-            <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Fill in with Book Title, Publisher, Book Category, Book Content" aria-describedby="inputGroup-sizing-lg">
-            <span class="btnsearch btn input-group-text text-white " id="inputGroup-sizing-lg">Search</span>
-          </div> 
-        </div>     
-      </div>
-    </section>
+      </section>
+    <!-- Akhir Section Search Bar -->
 
-  <!-- Akhir Section Search Bar -->
-
-  <!-- section Section Viewboard -->
-    <section class="viewboard">
-      <div class="container mb-3 text-white fw-bold">
+    <!-- section Section Viewboard -->
+      
+    <section class="container d-block colections">
+      <div class="container mb-3 text-white fw-normal"> 
         Latest Collections
       </div>
-    </section>
-    <section class="container first-section mb-5"> 
-      <div class="row gx-5">
-        <div class="col-md-6 p-2">
-          <div class="left-first-section ms-3">
-            <div class="row gx-5">
-              <div class="col-12 p-2">
-                <div class="tabble-latest-collections">
-                  <table class="table-spacing">
-                    <tr>
-                      <th>Article Name</th>
-                      <th>Views</th>
-                      <th class="text-center">Action</th>
-                    </tr>
-                    <tr>
-                      <td>Reactjs and Expressjs Implementation..</td>
-                      <td class="text-center">10</td>
-                      <td><a href="">More Detail</a></td>
-                    </tr>
-                    <tr>
-                      <td>Application of Certification Manageme..</td>
-                      <td class="text-center">15</td>
-                      <td><a href="">More Detail</a></td>
-                    </tr>
-                    <tr>
-                      <td>Identification and Evaluation of Logisti..</td>
-                      <td class="text-center">11</td>
-                      <td><a href="">More Detail</a></td>
-                    </tr>
-                    <tr>
-                      <td>The Effectiveness of Public Services..</td>
-                      <td class="text-center">12</td>
-                      <td><a href="">More Detail</a></td>
-                    </tr>
-                    <tr>
-                      <td>The Impact Learning Organization..</td>
-                      <td class="text-center">14</td>
-                      <td><a href="">More Detail</a></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <div class="explore-more">
-                          <a class="me-3" href="">EXPLORE MORE</a>
-                          <img src="assets/img/Vector.svg" alt="">
-                      </div>
-                      </td>
-                    </tr>
-                  </table>
+      <div class="container content">
+        
+       <div class="row">
+          <div class="col col-md-6">
+            <table class="table-spacing">
+              <tr>
+                <th>Article Name</th>
+                <th>Views</th>
+                <th class="text-center">Action</th>
+              </tr>
+              <tr>
+                <td>Reactjs and Expressjs Implementation..</td>
+                <td class="text-center">10</td>
+                <td><a href="">More Detail</a></td>
+              </tr>
+              <tr>
+                <td>Application of Certification Manageme..</td>
+                <td class="text-center">15</td>
+                <td><a href="">More Detail</a></td>
+              </tr>
+              <tr>
+                <td>Identification and Evaluation of Logisti..</td>
+                <td class="text-center">11</td>
+                <td><a href="">More Detail</a></td>
+              </tr>
+              <tr>
+                <td>The Effectiveness of Public Services..</td>
+                <td class="text-center">12</td>
+                <td><a href="">More Detail</a></td>
+              </tr>
+              <tr>
+                <td>The Impact Learning Organization..</td>
+                <td class="text-center">14</td>
+                <td><a href="">More Detail</a></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="explore-more">
+                    <a class="me-3" href="">EXPLORE MORE</a>
+                    <img src="assets/img/Vector.svg" alt="">
                 </div>
-              </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        <div class="col col-md-6">
+          <div class="content2 justify-content-center">
+            <div class="row ">
+            <div class="col main col-md-6">
+              <div class="kotak kotak1"></div>
+              <div class="kotak kotak2"></div>
+            </div>
+            <div class="col main2 col-md-6"> 
+              <div class="kotak kotak3"></div>
+              <div class="kotak kotak4"></div>
             </div>
           </div>
+          </div>
+          
         </div>
-        <div class="col-md-6 p-2">
-          <div class="main-kotak right-section ms-5">
-            <div class="row gx-5">
-              <div class="col-md-6 p-2">
-                <div class="kotak-1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aperiam molestias perferendis minus similique quis. Repellat molestias laudantium, illo reiciendis, cum maiores dolores, accusamus suscipit quia quibusdam harum consequatur alias!
-                </div>
-              </div>
-              <div class="col-md-6 p-2">
-                <div class="kotak-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque accusamus reiciendis eos beatae facilis similique, odit, quidem nisi, temporibus asperiores perferendis sequi recusandae quae ipsam repellendus cupiditate maxime aspernatur?
-                </div>
-              </div>
-              <div class="col-md-6 p-2">
-                <div class="kotak-3">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum vero cumque optio fugit, commodi repudiandae eius. Hic, aut repudiandae iusto placeat eos aperiam nostrum non corrupti dignissimos ullam laudantium pariatur?
-                </div>
-              </div>
-              <div class="col-md-6 p-2">
-                <div class="kotak-4">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis est alias soluta commodi iste quibusdam dolorum repellat pariatur, quasi, illum autem ad voluptatum voluptates, saepe vitae aspernatur consequatur doloremque dolorem?
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-    </section>
     
-    <div class="top-download-items container mb-3 text-white fw-bold">
-      Top Download Items 
-    </div>
-    <div class="container justify-content-start">
-      <div class="row gx-5">
-        <div class="col-md-6">
-          <section class="second-section mt-0">
+
+    </section>
+      <!-- <section class="viewboard">
+        <div class="container mb-3 text-white fw-normal"> 
+          Latest Collections
+        </div>
+      </section>
+      <section class="container first-section mb-5"> 
+        <div class="row gx-5">
+          <div class="col-md-6 p-2">
+            <div class="left-first-section ms-3">
+              <div class="row gx-5">
+                <div class="col-12 p-2">
+                  <div class="tabble-latest-collections">
+                    <table class="table-spacing">
+                      <tr>
+                        <th>Article Name</th>
+                        <th>Views</th>
+                        <th class="text-center">Action</th>
+                      </tr>
+                      <tr>
+                        <td>Reactjs and Expressjs Implementation..</td>
+                        <td class="text-center">10</td>
+                        <td><a href="">More Detail</a></td>
+                      </tr>
+                      <tr>
+                        <td>Application of Certification Manageme..</td>
+                        <td class="text-center">15</td>
+                        <td><a href="">More Detail</a></td>
+                      </tr>
+                      <tr>
+                        <td>Identification and Evaluation of Logisti..</td>
+                        <td class="text-center">11</td>
+                        <td><a href="">More Detail</a></td>
+                      </tr>
+                      <tr>
+                        <td>The Effectiveness of Public Services..</td>
+                        <td class="text-center">12</td>
+                        <td><a href="">More Detail</a></td>
+                      </tr>
+                      <tr>
+                        <td>The Impact Learning Organization..</td>
+                        <td class="text-center">14</td>
+                        <td><a href="">More Detail</a></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="explore-more">
+                            <a class="me-3" href="">EXPLORE MORE</a>
+                            <img src="assets/img/Vector.svg" alt="">
+                        </div>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container col-md-6 p-2"> -->
+            <!-- <div class="container main-kotak">
+              <div class="row gx-5">
+                <div class="col-md-6 p-2">
+                  <div class="kotak-1">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, ipsum voluptas exercitationem soluta quo sunt? Reprehenderit dolorum doloribus nulla eveniet earum nemo sit aperiam sunt.
+                  </div>
+                </div>
+                <div class="col-md-6 p-2">
+                  <div class="kotak-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, ipsum voluptas exercitationem soluta quo sunt? Reprehenderit dolorum doloribus nulla eveniet earum nemo sit aperiam sunt.
+                  </div>
+                </div>
+                <div class="col-md-6 p-2">
+                  <div class="kotak-3">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, ipsum voluptas exercitationem soluta quo sunt? Reprehenderit dolorum doloribus nulla eveniet earum nemo sit aperiam sunt.
+                  </div>
+                </div>
+                <div class="col-md-6 p-2">
+                  <div class="kotak-4">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, ipsum voluptas exercitationem soluta quo sunt? Reprehenderit dolorum doloribus nulla eveniet earum nemo sit aperiam sunt.
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <div class="container mt-5 d-flex top-download-items-and-top-author mb-3 text-white fw-normal">
+        
+        <div class="container  top-download-items" style="margin-left: -10px;">
+          Top Download Items
+        </div>
+        <div class="container top-author" style="margin-left:110px;">
+          Top Author 
+        </div>
+        </div>
+      <section class="container p-0 second-section" style="margin-bottom: 80px;">
+        <div class="row gx-5">
+          <div class="col col-md-6" style="padding-right: 300px;">
+          <div class="bg-white content1 justify-content-start" style="width: 650px; border-radius: 10px;">
             <table class="table-spacing">
               <tr>
                 <th>Search Terms</th>
@@ -223,43 +297,264 @@
                 <td class="text-center">10</td>
               </tr>
             </table>
-          </section>
+          </div>
+          </div>
+          
+          <div class="col col-md-6">
+            <div class="bg-white content2 ms-4" style="width: 600px; border-radius: 10px;">
+              <table class="table-spacing">
+                <tr>
+                  <th>Search Terms</th>
+                  <th>Searches</th>
+                </tr>
+                <tr>
+                  <td>Girinzio, Iqbal Desam</td>
+                  <td class="text-center">24</td>
+                </tr>
+                <tr>
+                  <td>Hanma, Zaki</td>
+                  <td class="text-center">20</td>
+                </tr>
+                <tr>
+                  <td>Situmorang, Hery</td>
+                  <td class="text-center">18</td>
+                </tr>
+                <tr>
+                  <td>Nurtino, Tio</td> 
+                  <td class="text-center">15</td>
+                </tr>
+                <tr>
+                  <td>Nuriman, Arbi</td>
+                  <td class="text-center">11</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="container bg-dark">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-md-6">
+            <div class="second-section mt-0 mb-5">
+              <table class="table-spacing">
+                <tr>
+                  <th>Search Terms</th>
+                  <th>Download</th>
+                </tr>
+                <tr>
+                  <td>Learning scikit-learn: Machine Learning in Python</td>
+                  <td class="text-center">10</td>
+                </tr>
+                <tr>
+                  <td>Development of the Global Film Industry</td>
+                  <td class="text-center">10</td>
+                </tr>
+                <tr>
+                  <td>Data Analytics with Hadoop</td>
+                  <td class="text-center">10</td>
+                </tr>
+                <tr>
+                  <td>Data Analysis with R</td>
+                  <td class="text-center">10</td>
+                </tr>
+                <tr>
+                  <td>CYBERSPACE and CYBERSECURITY</td>
+                  <td class="text-center">10</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="col-md-6 justify-content-end">
+            <section class="third-section mt-0 mb-5">
+              <table class="table-spacing">
+                <tr>
+                  <th>Search Terms</th>
+                  <th>Searches</th>
+                </tr>
+                <tr>
+                  <td>Girinzio, Iqbal Desam</td>
+                  <td class="text-center">24</td>
+                </tr>
+                <tr>
+                  <td>Hanma, Zaki</td>
+                  <td class="text-center">20</td>
+                </tr>
+                <tr>
+                  <td>Situmorang, Hery</td>
+                  <td class="text-center">18</td>
+                </tr>
+                <tr>
+                  <td>Nurtino, Tio</td> 
+                  <td class="text-center">15</td>
+                </tr>
+                <tr>
+                  <td>Nuriman, Arbi</td>
+                  <td class="text-center">11</td>
+                </tr>
+              </table>
+            </section>
+          </div>
+        </div>
+      </section> -->
+    <!-- akhir Section Viewboard  -->
+
+    <!-- Section About Us -->
+      <section class="container-fluid section-about-us">
+        <div class="container p-3 text-white tittle-about-us">
+          <div class="row mt-5">
+            <div class="col-md-12">
+              <div class="main-tittle fw-bold mb-3">
+                <h1><span style="border-bottom: 5px solid white;">ABOUT</span> US</h1>
+              </div>
+              <div class="sub-tittle">
+                <p>Getting To Know About Online LIBRARY of DIGITAL BLUE OCEAN</p>
+              </div>
+              </div>
+            </div>
+        </div>
+
+      <section class="container main-content-about-us mb-5"> 
+        <div class="row gx-5">
+          <div class="col-md-6 p-2">
+            <div class="main-img ms-3">
+              <div class="row gx-5">
+                <div class="col-12 p-2 ms-5">
+                  <img class="img-about-us" src="assets/img/img_about_us.svg" alt="About Us">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container col-md-6 p-2">
+            <div class="container definition-content text-white">
+              <div class="row gx-5">
+                <img class="dbo-logo-about-us" src="assets/img/DBO Logo.png" alt="DBO Logo">
+                  <div class="definition-dbo">
+                    <p>Digital Blue Ocean offers open access to Raharja University Student Scientific Works and e-books in Digital Business and Information Technology. lorem100</p>
+                    <br>
+                    <p>Digital Blue Ocean helps Raharja University enhance its Digital Business Study Program through digital library development, ultimately boosting its Webometrics rankings.</p> 
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </section>
+    <!-- Akhir Section About Us -->
+
+    <!-- Contact Us Section -->
+      <section class="container mt-5 text-white header-contact-us">
+        <div class="col-md-12">
+          <div class="main-tittle text-center fw-bold mb-3">
+            <h1><span style="border-bottom: 5px solid white;">CONTACT</span> US</h1>
+          </div>
+          <div class="sub-tittle text-center">
+            <p>Fill out the form to leave a comment or get in touch with us via the Contact details below.</p>
+          </div>
+          <div class="container first-email mb-2">
+            <div class="col-md-12">
+              <img class="first-gmail-logo" src="assets/img/logos_google-gmail.svg" alt="google-gmail">
+                <a href="mailto:ai_indonesia@alphabetincubator.id" class="custom-email-link">ai_indonesia@alphabetincubator.id</a>
+            </div>
+          </div>
+          <div class="container second-email">
+            <div class="col-md-12">
+              <img class="second-gmail-logo" src="assets/img/logos_google-gmail.svg" alt="google-gmail">
+                <a href="mailto:info@pandawan.id" class="custom-email-link">info@pandawan.id</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container bg-contact-us ">
+        <div class="row">
+          <div class="col-md-6">
+            <div class=" form-contact-us mt-5 mb-5 p-3" style="width: max-content; height: 500px; background-color: #D9D9D9; border-radius: 10px;">
+          <div class="row gx-5">
+            <div class="col-md-6">
+              <div class="mb-5" style="width: 261px; height: 30px;">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-5" style="width: 261px; height: 30px;">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+              </div>
+            </div>
+          </div>
+      
+          <div class="mb-3 mt-2" style="width: 100%;">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+          </div>
+      
+          <div class="mb-3" style="width: 100%">
+            <label for "phone" class="form-label">Phone</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+          </div>
+          
+          <div class="mb-2" style="width: 100%">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary float-end" style="width: 136px; height: 47px;">Send</button>
+        </div>
+          </div>
+          <div class="col-md-6">
+            <div class="col-md-6 p-2">
+          <div class="container img-contact-us">
+            <div class="row gx-5">
+              <div class="col-12 mb-5">
+                <img class="container main-img-contact-us" src="assets/img/ImgContactUs.svg" alt="contact-us">
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
         </div>
         
-        <div class="col-md-6">
-          <section class="third-section mt-0">
-            <table class="table-spacing">
-              <tr>
-                <th>Search Terms</th>
-                <th>Searches</th>
-              </tr>
-              <tr>
-                <td>Girinzio, Iqbal Desam</td>
-                <td class="text-center">24</td>
-              </tr>
-              <tr>
-                <td>Hanma, Zaki</td>
-                <td class="text-center">20</td>
-              </tr>
-              <tr>
-                <td>Situmorang, Hery</td>
-                <td class="text-center">18</td>
-              </tr>
-              <tr>
-                <td>Nurtino, Tio</td> 
-                <td class="text-center">15</td>
-              </tr>
-              <tr>
-                <td>Nuriman, Arbi</td>
-                <td class="text-center">11</td>
-              </tr>
-            </table>
-          </section>
-        </div>
-      </div>
-    </div>
+        
+        
+      </section>
+    <!-- Akhir Section Contact Us -->
 
-  <!-- akhir Section Viewboard  -->
+    <!-- Related Links Section -->
+
+    <section class="section-related-links">
+      <div class="container text-center" style="padding-top: 50px;">
+        <div class="main-tittle fw-bold mb-3">
+                <h1 class="text-white"><span style="border-bottom: 5px solid white;">RELATED</span> LINKS</h1>
+              </div> 
+              <div class="sub-tittle text-white">
+                <p>Links Related to Online Library of Digital Blue Ocean</p>
+              </div
+            </div>
+
+            <div class="row ">
+              <div class="col-md-6 justify-content-end mt-3" style="padding-left: 300px; ">
+                  <img class="img-fluid" style="filter: drop-shadow(2px 2px 2px black);" src="assets/img/BisDi-Gold-UR-atas 1.svg" alt="Bisnis Digital">
+              </div>
+              <div class="col-md-6 justify-content-start mt-3" style="padding-right: 300px;">
+                  <img class="img-fluid" style="filter: drop-shadow(2px 2px 2px black);" src="assets/img/LOGO-UNIVERSITAS-RAHARJA 1.svg" alt="Universitas Raharja">
+              </div>
+            </div>
+    </section>
+    <!-- Akhir Related Links Section -->
+
+    <!-- Footer -->
+      <section class="container-fluid footer">
+        <div class="container main-content-footer text-white">
+          <p>Everything Made With ❤️ by Alphabet Incubator.</p>
+        </div>
+      </section>
+
+
+
+    <!-- Akhir Footer -->
 
 
     <!-- Optional JavaScript; choose one of the two! -->
